@@ -201,7 +201,7 @@ export const public_blacklist: string = "https://black.qimo.ink/api/users/";
 
 //=====================限制API调用=============================
 //要求登录 1-开 0-关
-export const need_login: io = 1;
+export const need_login: io = 0;
 //允许WEB版使用 1-开 0-关
 export const web_on: io = 1;
 //限制哔哩漫游最低版本(需设置 web_on = 0) 填写数字 0-不限制
