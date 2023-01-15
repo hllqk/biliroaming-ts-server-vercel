@@ -1,12 +1,6 @@
 function HomePage() {
   return (
     <>
-      
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- 基础信息 -->
-    <html lang="zh-cmn-Hans">
     <meta charset="utf-8">
     <meta name="renderer" content="webkit" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -208,7 +202,6 @@ WIDGET = {
     <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript" src="./js/fetch.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
-</body>
     </>
   );
 }
