@@ -1,5 +1,5 @@
-# biliroaming-serve-ts-vercel
-
+# biliroaming-serve-ts-vercel-hllqk
+此版本为hllqk美化版本，美化了index.html
 本服务部署在Vercel香港节点上。  
 配置修改在 `pages/api/_config.ts` 中，可以直接改里面的配置文本，也可在Vercel里添加对应名称变量。  
 使用环境变量更安全。  
