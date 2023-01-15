@@ -1,39 +1,6 @@
 function HomePage() {
   return (
    <div>
-<!DOCTYPE html>
-<html>
-<head>
-    {/* 基础信息 */}
-    <html lang="zh-cmn-Hans">
-    <meta charSet="utf-8"/>
-    <meta name="renderer" content="webkit" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="force-rendering" content="webkit" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="AzurStarの主页"/>
-    <meta name="keywords" content="AzurStar个人主页"/>
-    <meta name="author" content="AzurStar"/>
-    <title>0721解析服务器</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">    
-    <link rel="icon" href="https://xn--qoqt3y678a.xn--6qq986b3xl/favicon.ico">
-    {/*引入SweetAlert
-    <script src="https://fastly.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>*/}
-    <script src="https://fastly.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
-    {/*引入izitoast*/}
-    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
-    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
-    {/*引入fontawesome*/}
-    <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css"
-        media="all">    
-    {/*科技炫酷按钮*/}
-    <link rel="stylesheet" type="text/css" href="css/sey.css">
-    <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href = "https://imsyy.top/upgrade-your-browser/index.html?referrer=" + encodeURIComponent(window.location.href);</script>
-</head>
-
-<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
-
     {/*<span className="mobile btn-mobile-menu">
         <i className="social iconfont icon-list btn-mobile-menu__icon"></i>
         <i className="social iconfont icon-ngleup btn-mobile-close__icon hidden"></i>
@@ -178,36 +145,7 @@ WIDGET = {
             <p className="power">Powered By <a href="https://github.com/hllqk/biliroaming-ts-server-vercel/" target="view_window">biliroaming-ts-server-vercel</p>           
         </div>
     </header>
-    {/*izitoast弹窗设置*/}
-    <script>
-        iziToast.settings({
-            timeout: 4000,//调试
-            icon: 'Fontawesome',
-            closeOnEscape: 'true',
-            position: 'topRight',
-            transitionOut: 'fadeOutRight',
-            displayMode: '2',
-            layout: '2',
-            transitionIn: 'bounceInLeft',
-        });
-    </script>
-    {/*izitoast内容*/}
-    <script>
-        function update() {
-            iziToast.info({
-                icon: 'fad fa-times-octagon',
-                backgroundColor: '#efefef',
-                title: '站点暂时关闭',
-                message: '只是出现了一点小问题 ~'
-            });
-        }
-    </script>
-
-    </style>
-    <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/fetch.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
-</body></div>
+</div>
   );
 }
 
