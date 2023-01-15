@@ -1,7 +1,10 @@
 function HomePage() {
-return (
-      <>
+  return (
+var NewComponent = React.createClass({
+  render: function() {
+    return (
       <div>
+        {/* 基础信息 */}
         <meta charSet="utf-8" />
         <meta name="renderer" content="webkit" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -109,9 +112,13 @@ return (
             <p className="power">Powered By <a href="https://github.com/hllqk/biliroaming-ts-server-vercel/" target="view_window">biliroaming-ts-server-vercel</a></p><a href="https://github.com/hllqk/biliroaming-ts-server-vercel/" target="view_window">           
             </a></div><a href="https://github.com/hllqk/biliroaming-ts-server-vercel/" target="view_window">
           </a></header><a href="https://github.com/hllqk/biliroaming-ts-server-vercel/" target="view_window">
+          {/*izitoast弹窗设置*/}
+          {/*izitoast内容*/}
         </a></div>
-              </>                                                                        
     );
+  }
+});
+  );
 }
 
 export default HomePage;
