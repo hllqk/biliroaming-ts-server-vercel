@@ -1,5 +1,6 @@
 function HomePage() {
   return (
+    <>
 var NewComponent = React.createClass({
   render: function() {
     return (
@@ -118,6 +119,7 @@ var NewComponent = React.createClass({
     );
   }
 });
+    </>
   );
 }
 
