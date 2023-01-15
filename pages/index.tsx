@@ -1,6 +1,5 @@
 function HomePage() {
   return (
-    <>
     <div>
   {/* 基础信息 */}
   <meta charSet="utf-8" />
@@ -113,7 +112,6 @@ function HomePage() {
     {/*izitoast弹窗设置*/}
     {/*izitoast内容*/}
   </a></div>
-    </>
   );
 }
 
