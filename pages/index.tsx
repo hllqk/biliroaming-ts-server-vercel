@@ -179,5 +179,5 @@ WIDGET = {
     </>
   );
 }
-
+export {}
 export default HomePage;
