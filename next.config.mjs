@@ -3,6 +3,14 @@
 /**
  * @type {import('next').NextConfig}
  */
+module.exports = {
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' }
+    }
+  }
+}
+
 const nextConfig = {
   async rewrites() {
     return [
@@ -10,6 +18,7 @@ const nextConfig = {
         source: "/pgc/:path(.*)",
         destination: "/api/pgc/:path*",
       },
+      
       {
         source: "/x/:path(.*)",
         destination: "/api/x/:path*",
